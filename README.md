@@ -15,7 +15,7 @@ code
 
     System.out.println("2) give a prize to the winner");
     winner.feed();
-    System.out.println(" - The current status now is " + winner.getName());
+    System.out.println(" - The current status now is " + winner.getInfo());
 
     Animal nyan = new Nyan(1000, 1);
     System.out.println("3) A new enemy is coming");
@@ -35,7 +35,7 @@ output
     - The winner is Doberman
     2) give a prize to the winner
     feeding...
-    - The current status now is Doberman
+    - The current status now is Doberman - {age: 1, weight: 10, power: 17}
     3) A new enemy is coming
     - Unknown status
     - The previous champion is going to fight

@@ -17,7 +17,7 @@ public class App {
 
         System.out.println("2) give a prize to the winner");
         winner.feed();
-        System.out.println(" - The current status now is " + winner.getName());
+        System.out.println(" - The current status now is " + winner.getInfo());
 
         Animal nyan = new Nyan(1000, 1);
         System.out.println("3) A new enemy is coming");
